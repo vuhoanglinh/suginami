@@ -1,0 +1,74 @@
+.main .container, 
+.main .intro, 
+.main .intro .image {
+  overflow: visible;
+}
+@media screen and (max-width: 320px) {
+  .main-box {
+    margin-top: -200px;
+  }
+  .main .intro .box {
+    top: 100px;
+  }
+  .contact .text {
+    margin-top: -30px;
+  }
+  .social {
+    bottom: 60px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .main-box {
+    margin-top: -200px;
+  }
+  .main .intro .box {
+    top: 100px;
+    margin-top: 0;
+  }
+  .contact .text {
+    margin-top: -30px;
+  }
+  .social {
+    bottom: 60px;
+  }
+}
+
+@media (min-width: 567px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .main-box {
+    margin-top: -200px;
+  }
+  .main .intro .box {
+    top: 100px;
+  }
+  .contact .text {
+    margin-top: -30px;
+  }
+  .social {
+    bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-box {
+    margin-top: -100px;
+  }
+  .main .intro .box {
+    top: 100px;
+  }
+  .contact .text {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main .intro .box {
+    top: 200px;
+  }
+  .contact .text {
+    margin-top: -100px;
+  }
+}

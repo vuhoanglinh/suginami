@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MS Gothic';
+    src: url('MS-Gothic.woff2') format('woff2'),
+        url('MS-Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
